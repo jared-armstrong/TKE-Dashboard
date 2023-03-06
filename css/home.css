@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-    padding-top: 200px;
+    padding-top: 150px;
     height: 100%;
 }
 .home-main {
@@ -41,12 +41,12 @@ a {
 /* Styling for portal boxes */
 .portal {
     background-color: var(--TKEred);
-    width: 280px;
-    height: 80px;
+    width: 320px;
+    height: 110px;
     text-align: center;
     color: var(--TKEwhite);
     border-radius: 5px;
-    margin: 15px auto;
+    margin: 25px auto;
     display: grid;
     grid-template-columns: .25fr 1fr;
     user-select: none;
