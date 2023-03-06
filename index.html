@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKE Dashboard</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+
+    <nav>
+        <div class='navgrid'>
+            <a><img onclick='homenavToHome()' src='../images/Logo.png' alt=''></a>
+            <h2>Upsilon-Iota Dashboard</h2>
+        </div>
+        <div class='hamburger-menu'>
+            <input id='menu__toggle' type='checkbox' />
+            <label class='menu__btn' for='menu__toggle'>
+                <span></span>
+            </label>
+            <ul class='menu__box'>
+                <li onclick='homenavToHome()'><a class='menu__item'>Home</a></li>
+                <li onclick='homenavToUPC()'><a class='menu__item'>Google Calendar</a></li>
+                <li onclick='homenavToPricing()'><a class='menu__item'>Chapter Module</a></li>
+                <li onclick='homenavToVendor()'><a class='menu__item'>Chapter Rankings</a></li>
+                <li onclick='homenavToGenerate()'><a class='menu__item'>Chapter Minutes</a></li>
+                <li onclick='homenavToEditSKU()'><a class='menu__item'>Contact Sheet</a></li>
+                <li onclick='homenavToD365()'><a class='menu__item'>St. Jude Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="home-main">
+            <div class="portal">
+                <a><img src="assets/google-calendar.png" alt="Google Calendar Image"></a>
+                <a href="https://calendar.google.com/calendar/u/0?cid=dGtlLnlpLml1cHVpQGdtYWlsLmNvbQ" target="_blank">
+                    <h2>Google Calendar</h2>
+                </a>
+            </div>
+            <div class="portal">
+                <a><img src="assets/chapter-module.png" alt=""></a>
+                <a href="https://module.tke.org/(S(1ow1gga12hv5t3sfhyyaqgir))/PortalLogin.aspx" target="_blank">
+                    <h2>Chapter Module</h2>
+                </a>
+            </div>
+            <div class="portal">
+                <a><img src="assets/chapter-rankings.png" alt=""></a>
+                <a href="https://www.tke.org/chapterrankings" target="_blank">
+                    <h2>Chapter Rankings</h2>
+                </a>
+            </div>            
+            <div class="portal">
+                <a><img src="assets/google-docs.png" alt=""></a>
+                <a href="" target="_blank">
+                    <h2>Chapter Minutes</h2>
+                </a>
+            </div>
+            <div class="portal">
+                <a><img src="assets/contact-sheet.png" alt=""></a>
+                <a href="https://docs.google.com/spreadsheets/d/1pvxHPwnxFhSL4scyDLO4vt0EFm_NVGhRX0ByX-nRHlI/edit?usp=sharing" target="_blank">
+                    <h2>Contact Sheet</h2>
+                </a>
+            </div>
+            <div class="portal">
+                <a><img src="assets/st-jude.png" alt=""></a>
+                <a href="https://fundraising.stjude.org/site/TR?fr_id=139893&pg=entry" target="_blank">
+                    <h2>St. Jude Dashboard</h2
+                ></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
