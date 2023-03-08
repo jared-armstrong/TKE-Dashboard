@@ -1,0 +1,36 @@
+.doc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doc-container {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 100%;
+}
+.doc-main {
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(300px, 100%/3)), 1fr));
+}
+/* Styling for documents */
+.documents {
+    background-color: var(--TKEred);
+    width: 320px;
+    height: 110px;
+    text-align: center;
+    color: var(--TKEwhite);
+    border-radius: 5px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    user-select: none;
+
+    transition: 300ms ease-in-out;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
