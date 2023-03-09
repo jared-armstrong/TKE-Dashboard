@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chapter Minutes</title>
     <link rel="icon" type="image/x-icon" href="../assets/tke-org.png">
+    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/docs-container.css">
 </head>
 <body>
 
@@ -15,8 +15,8 @@
 
     <nav>
         <div class='navgrid'>
-            <a><img class='tke-logo' src='../assets/tke-org.png' alt='TKE Logo'></a>
-            <h1>Chapter Minutes</h1>
+            <a href="../index.html"><img class='tke-logo' src='../assets/tke-org.png' alt='TKE Logo'></a>
+            <h1 class="heading">Chapter Minutes</h1>
         </div>
         <div class='hamburger-menu'>
             <input id='menu__toggle' type='checkbox' />
@@ -50,15 +50,36 @@
 
 
 
-    <div class="doc">
-        <div>
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSb4geDmz-r9KJZptu3hDjnZw9sipQ8bLf_7OLmBLtHp0JqZhrLh7DnfIg2U3dOixCPP6u35segP-Uf/pub?embedded=true"
-            style="width: 1000px; height: 600px; text-align: center; padding: 20px; position: relative;";></iframe>
+    <!-- Portals to navigate to Chapter Minutes for each month -->
+
+    <div class="container">
+        <div class="home-main">
+
+            <div class="portal">
+                <a><img src="../assets/january.webp" alt="January Calendar Icon"></a>
+                <a href="/pages/chapter-minutes-monthly/january.html" target="">
+                    <h2>January Minutes</h2>
+                </a>
+            </div>
+        
+            <div class="portal">
+                <a><img src="../assets/february-month-icon.png" alt="Feburary Calendar Icon"></a>
+                <a href="/pages/chapter-minutes-monthly/february.html" target="">
+                    <h2>Feburary Minutes</h2>
+                </a>
+            </div>
+
+            <div class="portal">
+                <a><img src="../assets/march-month-icon.png" alt="March Calendar Icon"></a>
+                <a href="/pages/chapter-minutes-monthly/march.html" target="">
+                    <h2>March Minutes</h2>
+                </a>
+            </div>
+
         </div>
-        <div>Two</div>
-        <div>Three</div>
-        <div>Four</div>
+
     </div>
+
 
 
     

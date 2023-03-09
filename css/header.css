@@ -87,7 +87,7 @@ a {
     right: 0;
 
     width: 300px;
-    height: 649px;
+    height: auto;
 
     margin: 0;
     padding: 110px 0;
@@ -118,7 +118,7 @@ a {
 }
 .menu__item:hover {
     background-color: var(--TKEgrey);
-    color: var(--TKEred);
+    color: black;
     outline: 1px solid grey;
 }
 
@@ -130,13 +130,29 @@ a {
     background-color: var(--TKEred);
     align-items: center;
 }
-.navgrid img {
-    width: 100px;
-    height: 80px;
+.tke-logo {
+    width: 110px;
+    height: 90px;
     padding-left: 25px;
+    padding-top: 6px;
 }
-.navgrid h1 {
+.heading {
     color: white;
     text-align: center;
     font-size: 36px;
+}
+
+@media screen and (max-width: 700px) {
+    .menu__box, .menu__btn {
+        display: none;
+    }
+    .heading {
+        font-size: 24px;
+        text-align: center;
+    }
+    .tke-logo {
+        padding-left: 15px;
+        width: 90px;
+        height: 80px;
+    }
 }
